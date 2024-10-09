@@ -9,6 +9,7 @@ namespace git_training_project
 
             Methods.NameCreator();
             Methods.AgeCreator();
+            Methods.EmailCreator();
         }
     }
 }

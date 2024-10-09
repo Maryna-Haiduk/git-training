@@ -21,5 +21,12 @@ namespace git_training_project
             Int32.TryParse(Console.ReadLine(), out int age);
             Console.WriteLine($"Your age is: {age}");
         }
+
+        public static void EmailCreator()
+        {
+            Console.Write("Please, write your email here: ");
+            string email = Console.ReadLine();
+            Console.WriteLine($"Your email is: {email}");
+        }
     }
 }
