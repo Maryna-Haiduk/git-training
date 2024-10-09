@@ -12,7 +12,14 @@ namespace git_training_project
         {
             Console.Write("Please, write your name here: ");
             string name = Console.ReadLine();
-            Console.WriteLine("Hello, " + name + "!");
+            Console.WriteLine($"Hello, {name}!");
+        }
+
+        public static void AgeCreator() 
+        {
+            Console.Write("Please, write your age here: ");
+            Int32.TryParse(Console.ReadLine(), out int age);
+            Console.WriteLine($"Your age is: {age}");
         }
     }
 }

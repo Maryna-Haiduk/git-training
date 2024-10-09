@@ -8,6 +8,7 @@ namespace git_training_project
             Console.WriteLine("Hello, World!");
 
             Methods.NameCreator();
+            Methods.AgeCreator();
         }
     }
 }
